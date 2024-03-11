@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "C build main.wasm",
+          "type": "shell",
+          "command": "/opt/wasi-sdk/bin/clang -g -o main.wasm main.c",
+          "group": "build",
+          "presentation": {
+              "reveal": "always",
+              "panel": "new"
+          }
+      },
+      {
+        "label": "CPP build main.wasm",
+        "type": "shell",
+        "command": "clang++ -g -o main-cc.wasm main.cc",
+        "group": "build",
+        "presentation": {
+            "reveal": "always",
+            "panel": "new"
+        }
+    }
+  ]
+}
