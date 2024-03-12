@@ -52,10 +52,10 @@
         "debug-info=y",
         "--dir",
         ".",
-        "./main.wasm"
+        "./main-cc.wasm"
       ],
       "cwd": "${workspaceFolder}",
-      "preLaunchTask": "CPP build main.wasm"
+      "preLaunchTask": "CPP build main-cc.wasm"
     },
     {
       "name": "CPP GDB wasm debug",
@@ -67,7 +67,7 @@
         "debug-info=y",
         "--dir",
         ".",
-        "./main.wasm"
+        "./main-cc.wasm"
       ],
       "cwd": "${workspaceFolder}",
       "environment": [],
@@ -77,7 +77,7 @@
               "text": "-enable-pretty-printing",
           }
       ],
-      "preLaunchTask": "CPP build main.wasm"
+      "preLaunchTask": "CPP build main-cc.wasm"
     }
  
   ]

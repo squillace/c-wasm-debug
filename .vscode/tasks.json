@@ -12,9 +12,9 @@
           }
       },
       {
-        "label": "CPP build main.wasm",
+        "label": "CPP build main-cc.wasm",
         "type": "shell",
-        "command": "clang++ -g -o main-cc.wasm main.cc",
+        "command": "/opt/wasi-sdk/bin/clang++ -g -o main-cc.wasm main.cc",
         "group": "build",
         "presentation": {
             "reveal": "always",

@@ -25,7 +25,7 @@ int copy(const char* n1, const char* n2)
 
 int main()
 {
-    fprintf(stdout, "Hello C World!\n");
+    fprintf(stdout, "Hello C++ World!\n");
 
     FILE *f = fopen("test.txt", "w+");
     if (!f) {
